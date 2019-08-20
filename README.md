@@ -1,5 +1,5 @@
 # Decorator
-It is one of the Behaviour Design Patterns.
+It is one of the Structural Design Patterns.
 
 Extension at runtime not compile time. It solves a problem with multiple inheritance and ability to concatenate a logic under another types.
 Extends object behaviour by composition not extension. Thanks to that we are able to add new responsible to the object by wrapping an instance
