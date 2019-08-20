@@ -4,10 +4,7 @@ public class Home {
 
     public static void main(String[] args) {
 
-        Sensor tools = new Thermometer();
-        tools = new Hygrometer(tools);
-        tools = new Airmeter(tools);
-
+        Sensor tools = new Hygrometer(new Airmeter(new Thermometer()));
         System.out.println(tools.measure());
     }
 }
