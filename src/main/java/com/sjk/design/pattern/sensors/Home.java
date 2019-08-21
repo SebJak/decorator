@@ -1,4 +1,4 @@
-package com.sjk.design.pattern.decorator;
+package com.sjk.design.pattern.sensors;
 
 public class Home {
 
